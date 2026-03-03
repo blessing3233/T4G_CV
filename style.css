@@ -59,14 +59,37 @@ h4 {
 ul {
     padding-left: 20px;
 }
-.portfolio-item {
-    margin-bottom: 25px;
+/* PORTFOLIO SECTION */
+.portfolio-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
 }
 
-.portfolio-img {
+.portfolio-item {
+    flex: 1;
+}
+
+.portfolio-item img {
     width: 100%;
-    max-width: 400px;
-    border-radius: 6px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.references {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.references button {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.references button:hover {
+    background-color: #1f6691;
 }
